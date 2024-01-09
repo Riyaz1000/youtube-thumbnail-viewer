@@ -47,6 +47,6 @@ buttonEl.addEventListener("click", () => {
 });
 
 buttonEl.addEventListener("click", () => {
-  //   actionEl.classList.add("hidden");
+  actionEl.classList.add("hidden");
   paraEl.classList.add("hidden");
 });
