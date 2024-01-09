@@ -42,6 +42,11 @@ function fetchThumbnail() {
 
 buttonEl.addEventListener("click", () => {
   fetchThumbnail();
+  //   actionEl.add("hidden");
+  //   actionEl.setAttribute("class", "hidden");
+});
+
+buttonEl.addEventListener("click", () => {
   actionEl.classList.add("hidden");
   paraEl.classList.add("hidden");
 });
