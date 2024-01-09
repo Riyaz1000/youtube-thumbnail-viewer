@@ -5,7 +5,7 @@ const buttonEl = document.getElementById("button");
 
 const actionEl = document.querySelector(".action");
 
-const paraEl = document.getElementById("para");
+const paraEl = document.querySelector(".para");
 
 function fetchThumbnail() {
   let inputLink = document.getElementById("videoLink").value;
@@ -47,6 +47,6 @@ buttonEl.addEventListener("click", () => {
 });
 
 buttonEl.addEventListener("click", () => {
-  actionEl.classList.add("hidden");
+  //   actionEl.classList.add("hidden");
   paraEl.classList.add("hidden");
 });
