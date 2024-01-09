@@ -7,6 +7,8 @@ const actionEl = document.querySelector(".action");
 
 const paraEl = document.querySelector(".para");
 
+//https://youtu.be/3wDiqlTNlfQ?si=39XtzNRQyIYD6SBD
+
 function fetchThumbnail() {
   let inputLink = document.getElementById("videoLink").value;
   console.log(inputLink);
@@ -47,6 +49,8 @@ buttonEl.addEventListener("click", () => {
 });
 
 buttonEl.addEventListener("click", () => {
-  actionEl.classList.add("hidden");
-  paraEl.classList.add("hidden");
+  actionEl.style.display = "none";
+  //   paraEl.classList.add("hidden");
+  //   paraEl.visibility = "hidden";
+  paraEl.style.display = "none";
 });
