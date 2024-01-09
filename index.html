@@ -9,8 +9,26 @@
     <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
   <body>
-    <!-- Write your HTML here -->
-    <div id="app" class="text-3xl font-bold">Hello Vite HTML & Tailwind!</div>
+    <main class="bg-[#2e0249] bg-cover object-contain h-screen p-10">
+      <div
+      class="font-semibold p-10 rounded bg-green-500 max-w-xl mx-auto shadow mt-10"
+    >
+      <!-- <hr class="h-px my-4 bg-gray-300 border-0 dark:bg-gray-800" /> -->
+
+      <h5 class="text-white">Paste Your Link Here :</h5>
+      <input
+        type="url"
+        name=""
+        id="url"
+        placeholder="paste here link"
+        class="w-full rounded p-1  outline-none"
+        required
+      />
+      <button type="submit" class="bg-blue-300 rounded p-1 mt-1.5 w-full items-center">
+        Get Thumbnail
+      </button>
+    </div>
+
     <script type="module" src="./assets/js/main.js"></script>
   </body>
 </html>
