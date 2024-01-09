@@ -3,6 +3,10 @@
 const buttonEl = document.getElementById("button");
 // let inputLink = document.getElementById("videoLink");
 
+const actionEl = document.querySelector(".action");
+
+const paraEl = document.getElementById("para");
+
 function fetchThumbnail() {
   let inputLink = document.getElementById("videoLink").value;
   console.log(inputLink);
@@ -38,4 +42,6 @@ function fetchThumbnail() {
 
 buttonEl.addEventListener("click", () => {
   fetchThumbnail();
+  actionEl.classList.add("hidden");
+  paraEl.classList.add("hidden");
 });
